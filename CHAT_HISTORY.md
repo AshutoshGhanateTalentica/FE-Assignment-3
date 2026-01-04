@@ -1,22 +1,3 @@
-Prompt:-
-I am working on a frontend mini project assignment called “FlowBoard”.
-Before coding, I want to ensure I fully understand the requirements and constraints.
-Do not start to code until explictly mentioned. Will discuss high level design and in different phases.
-Phase 1: Requirement understanding
-attached the word file for the reference
-
-Response:-
-Functional Requirements
-
-Columns: Three fixed columns — To Do, In Progress, Done.
-Add Task: Create a task (title only) into the To Do column.
-Move Task: Move tasks between columns via drag-and-drop or via buttons.
-Delete Task: Delete a task from any column.
-In-memory State: Tasks held in component state during runtime.
-Persistence: Persist tasks to localStorage (no API/backend).
-UI Layout: Three-column layout with equal widths (~33% each), vertical task lists per column; interactivity for move/delete.
-FlowBoard project — Chat History
-
 Date range: session starting Jan 4, 2026
 
 ---
