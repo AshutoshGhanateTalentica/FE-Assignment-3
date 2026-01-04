@@ -2,7 +2,8 @@ Date range: session starting Jan 4, 2026
 
 ---
 
-User: I am working on a frontend mini project called “FlowBoard”. Before coding, I want to ensure I fully understand the requirements and constraints. Do not start to code until explicitly mentioned. Will discuss high level design and in different phases. Phase 1: Requirement understanding attached the word file for the reference
+User: I am working on a frontend mini project called “FlowBoard”. Before coding, I want to ensure I fully understand the requirements and constraints. Do not start to code until explicitly mentioned. Will discuss high level design and in different phases. 
+Phase 1: Requirement understanding attached the word file for the reference
 
 Assistant: I'll create a short plan to track Phase 1 requirement-analysis tasks.
 
@@ -14,7 +15,10 @@ Assistant: I'll mark reading and extraction steps complete in the todo list.
 
 Assistant: Progress update: Document read and requirements extracted. Next: confirm scope and answer clarifying questions. (lists Functional Requirements, Technical Constraints, Ambiguities/Questions, Proposed Phase-1 outputs, Acceptance Criteria)
 
-User: Pick reactjs as a framework and node version 25.2.1, use vite for Start: npm install and npm run start launches the app. phase 2:- Architecture discussion (NO CODE YET) Let's discuss architecture before implementation. I want to use ReactJS with functional components along with Typescript and custom hooks. Please propose: 1) component hierarchy, 2) where state should live, 3) how localStorage persistence should be integrated, 4) how to keep design simple but extensible. Also explain trade-offs.
+User: Pick reactjs as a framework and node version 25.2.1, use vite for Start: npm install and npm run start launches the app. 
+phase 2:- Architecture discussion (NO CODE YET) Let's discuss architecture before implementation. 
+I want to use ReactJS with functional components along with Typescript and custom hooks. 
+Please propose: 1) component hierarchy, 2) where state should live, 3) how localStorage persistence should be integrated, 4) how to keep design simple but extensible. Also explain trade-offs.
 
 Assistant: I'll update the todo list to mark Phase‑1 done and add Phase‑2 architecture tasks. (then provides architecture: component hierarchy, custom hooks, state location, localStorage persistence strategy, drag & drop approach, keeping design extensible, trade-offs, implementation notes)
 
@@ -26,9 +30,10 @@ User: Phase 4: per task design discussion — create task list with JIRA-style t
 
 Assistant: Added detailed Phase‑4 task list to todo list (many tasks: scaffold, hooks, provider, components, tests, docs, video etc.). Asked whether to draft ARCHITECTURE.md or scaffold project.
 
-User: Phase 6: Responsive Design & Edge Case Review — asked for review of UI on mobile and improvements.
+User: Phase 5: Responsive Design, Accessbility, Edge Case Review & Dark mode default.
+asked for review of UI on mobile and improvements.
 
-Assistant: Completed Phase‑6 review: listed mobile issues, CSS improvements (Grid/Flex), stacking/scrolling strategy, accessibility considerations, dark mode default + toggle, edge-case notes.
+Assistant: Completed Phase‑5 review: listed mobile issues, CSS improvements (Grid/Flex), stacking/scrolling strategy, accessibility considerations, dark mode default + toggle, edge-case notes.
 
 User: Final review before coding — asked for critique, weaknesses, improvements, confirm requirements met.
 
